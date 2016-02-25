@@ -169,6 +169,10 @@
       <Project>{31bdc170-4d0b-44d8-8886-f88fb3811e41}</Project>
       <Name>BWF.Library</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BWF.Service\BWF.Service.csproj">
+      <Project>{f038f174-cebe-41b8-b6bc-eb89cf06ff5c}</Project>
+      <Name>BWF.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

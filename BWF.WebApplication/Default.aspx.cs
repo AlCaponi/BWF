@@ -36,10 +36,12 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {   
+#if !DEBUG
 		if(string.IsNullOrEmpty(Request.Headers["SSL-HTTPS"]))
 		{
 			Response.Redirect("https://www.zso-emme.ch/");
 		}
+#endif
 	
         if (this.Soldat != null)
         {
