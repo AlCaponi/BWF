@@ -1,0 +1,98 @@
+﻿Initial commit fo web and Library Projects
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	new file:   BWF.Library/Anlass.cs
+#	new file:   BWF.Library/Antwort.cs
+#	new file:   BWF.Library/App.config
+#	new file:   BWF.Library/BWF.Library.csproj
+#	new file:   BWF.Library/Const.cs
+#	new file:   BWF.Library/EnumGuid.cs
+#	new file:   BWF.Library/EnumGuidExtension.cs
+#	new file:   BWF.Library/Fragen.cs
+#	new file:   BWF.Library/FragenGruppe.cs
+#	new file:   BWF.Library/FragenTyp.cs
+#	new file:   BWF.Library/Program.cs
+#	new file:   BWF.Library/Properties/AssemblyInfo.cs
+#	new file:   BWF.Library/Soldat.cs
+#	new file:   BWF.Library/SoldatAntwort.cs
+#	new file:   BWF.Web/BWF.Web.vbproj
+#	new file:   BWF.Web/Default.aspx
+#	new file:   BWF.Web/Default.aspx.cs
+#	new file:   BWF.Web/End.aspx
+#	new file:   BWF.Web/End.aspx.cs
+#	new file:   BWF.Web/Global.asax
+#	new file:   BWF.Web/Global.asax.vb
+#	new file:   BWF.Web/My Project/Application.Designer.vb
+#	new file:   BWF.Web/My Project/Application.myapp
+#	new file:   BWF.Web/My Project/AssemblyInfo.vb
+#	new file:   BWF.Web/My Project/MyExtensions/MyWebExtension.vb
+#	new file:   BWF.Web/My Project/Resources.Designer.vb
+#	new file:   BWF.Web/My Project/Resources.resx
+#	new file:   BWF.Web/My Project/Settings.Designer.vb
+#	new file:   BWF.Web/My Project/Settings.settings
+#	new file:   BWF.Web/Poll.aspx
+#	new file:   BWF.Web/Poll.aspx.cs
+#	new file:   BWF.Web/ServiceFactory/ServiceFactory.cs
+#	new file:   BWF.Web/Web.Debug.config
+#	new file:   BWF.Web/Web.Release.config
+#	new file:   BWF.Web/Web.config
+#	new file:   BWF.Web/css/bootstrap-datetimepicker.min.css
+#	new file:   BWF.Web/css/bootstrap-slider.css
+#	new file:   BWF.Web/css/bootstrap-slider.min.css
+#	new file:   BWF.Web/css/bootstrap-theme.css
+#	new file:   BWF.Web/css/bootstrap-theme.css.map
+#	new file:   BWF.Web/css/bootstrap-theme.min.css
+#	new file:   BWF.Web/css/bootstrap.css
+#	new file:   BWF.Web/css/bootstrap.css.map
+#	new file:   BWF.Web/css/bootstrap.min.css
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_glass_55_fbf9ee_1x400.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_glass_65_ffffff_1x400.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_glass_75_dadada_1x400.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-icons_222222_256x240.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-icons_2e83ff_256x240.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-icons_454545_256x240.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-icons_888888_256x240.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-icons_cd0a0a_256x240.png
+#	new file:   BWF.Web/css/custom-theme/images/ui-icons_f6cf3b_256x240.png
+#	new file:   BWF.Web/css/custom-theme/jquery-ui-1.10.0.custom.css
+#	new file:   BWF.Web/css/custom-theme/jquery-ui-1.9.2.custom.css
+#	new file:   BWF.Web/css/custom-theme/jquery.ui.1.10.0.ie.css
+#	new file:   BWF.Web/css/custom-theme/jquery.ui.1.9.2.ie.css
+#	new file:   BWF.Web/css/overrides.css
+#	new file:   BWF.Web/err.html
+#	new file:   BWF.Web/fonts/glyphicons-halflings-regular.eot
+#	new file:   BWF.Web/fonts/glyphicons-halflings-regular.svg
+#	new file:   BWF.Web/fonts/glyphicons-halflings-regular.ttf
+#	new file:   BWF.Web/fonts/glyphicons-halflings-regular.woff
+#	new file:   BWF.Web/fonts/glyphicons-halflings-regular.woff2
+#	new file:   BWF.Web/images/Logo_ZSOEMME.jpg
+#	new file:   BWF.Web/images/Logo_ZSOEMME.png
+#	new file:   BWF.Web/images/Logo_ZSOEMME.xcf
+#	new file:   BWF.Web/images/ZSOEMME_Kopfzeile_2010ff.jpg
+#	new file:   BWF.Web/images/ZSOEMME_Kopfzeile_2010ff.png
+#	new file:   BWF.Web/images/ZSOEMME_Kopfzeile_2010ff.xcf
+#	new file:   BWF.Web/images/chart.png
+#	new file:   BWF.Web/images/facebook_32.png
+#	new file:   BWF.Web/images/home-32.png
+#	new file:   BWF.Web/images/message-32.png
+#	new file:   BWF.Web/images/warning.png
+#	new file:   BWF.Web/images/youtube-128.png
+#	new file:   BWF.Web/js/bootstrap-datetimepicker.min.js
+#	new file:   BWF.Web/js/bootstrap-slider.min.js
+#	new file:   BWF.Web/js/bootstrap.min.js
+#	new file:   BWF.Web/js/default.js
+#	new file:   BWF.Web/js/jquery.js
+#	new file:   BWF.Web/js/moment.js
+#	new file:   BWF.Web/js/validator.js
+#	new file:   BWF.Web/test.aspx
+#	new file:   BWF.Web/test.aspx.cs
+#	new file:   BWF.sln
+#
+

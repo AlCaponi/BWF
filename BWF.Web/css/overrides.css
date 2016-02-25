@@ -1,0 +1,132 @@
+﻿table
+{
+	width:100%;
+}
+
+th
+{
+	padding:10px;
+}
+
+td
+{
+	padding:10px;
+}
+
+img
+{
+	border-radius:5px;
+	border:1px solid transparent;
+}
+
+.fail
+{
+	color:#FF0000;
+	font-weight:bold;
+	background-color:#FFDDDD;
+}
+
+.NA
+{
+	color:#000000;
+	font-weight:bold;
+	background-color:#FFFFDD;
+}
+
+.OK
+{
+	color:#00FF00;
+	font-weight:bold;
+	background-color:#DDFFDD;
+}
+
+.note
+{
+	padding:5px;
+	margin-top:40px;
+	background-color:#FFFFCC;
+	border:4px solid #EEEEAA;
+	border-radius:5px;
+	width:500px;
+}
+
+.note-inner
+{
+	background-color:#FFFF00;
+}
+
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+	margin-bottom:0px; /* Jumbotron Fix */
+	display: flex;
+	align-items: center;
+}
+
+.slide-next
+{
+	float:right;
+}
+
+.slide
+{
+	display:none;
+}
+
+.info-text
+{
+	font-size:10pt !important;
+	color:#666666;
+}
+
+.poll-form
+{
+	width:500px;
+}
+
+.login-form
+{
+	width:600px;
+}
+
+.logo
+{
+	color:#FF0000;
+	font-size:48pt;
+	width:100%;
+	height:100px;
+	/*background-image:url(../images/ZSOEMME_Kopfzeile_2010ff.jpg) auto;*/
+	margin-bottom:50px;
+}
+
+.gray
+{
+	color:#555555;
+}
+
+#mockup
+{
+	background-color:#FFFF00;
+	background-image:url(../images/warning.png);
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:140px;
+}
+
+#mockup-inner
+{
+	text-align:center;
+	padding:5px;
+	display:block;
+	margin:10px;
+	background-color:#FFFF00;
+	font-size:12pt;
+}
+
+/*DEBUG/
+*:hover
+{
+	border:1px solid #FF0000;
+}
+/**/
