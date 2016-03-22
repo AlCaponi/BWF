@@ -18,7 +18,7 @@ public partial class _Default : System.Web.UI.Page
     {
         get
         {
-            return BWF.BWFApplication.Current.Services<IBWFService>();
+            return new BWF.Service.BWFService();
         }
     }
 

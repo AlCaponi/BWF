@@ -8,7 +8,8 @@ namespace BWF.ServiceFactory
     public class ServiceFactory
     {
         private Dictionary<Type, object> m_CacheServices = new Dictionary<Type, object>();
-        private LAG.Framework.Wcf.ServiceFactory m_ServiceFactory = new LAG.Framework.Wcf.ServiceFactory(Const.BWF_CONFIG_CONTEXT);
+        //private LAG.Framework.Wcf.ServiceFactory m_ServiceFactory = new LAG.Framework.Wcf.ServiceFactory(Const.BWF_CONFIG_CONTEXT);
+        private LAG.Framework.Wcf.ServiceFactory m_ServiceFactory = new LAG.Framework.Wcf.ServiceFactory("BrainWashFuck");
 
         internal T CreateService<T>() where T : class
         {

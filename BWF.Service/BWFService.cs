@@ -16,13 +16,13 @@ namespace BWF.Service
         {
             try
             {
-                DaoFactory daoFactory = new DaoFactory("BrainWashFuck");
-                this.m_FrageDao = daoFactory.CreateDao<FrageDao>("FrageDao");
-                this.m_SoldatDao = daoFactory.CreateDao<SoldatDao>("SoldatDao");
+                //DaoFactory daoFactory = new DaoFactory("BrainWashFuck");
+                this.m_FrageDao = new FrageDao("Password=B2RkphT2BAfVp8;User ID=db930888_admin;Persist Security Info=False;Initial Catalog=db930888;Data Source=sql3.agrinet.ch");
+                this.m_SoldatDao = new SoldatDao("Password=B2RkphT2BAfVp8;User ID=db930888_admin;Persist Security Info=False;Initial Catalog=db930888;Data Source=sql3.agrinet.ch");
             }
             catch (Exception ex)
             {
-                throw new Exception("Fehler in BWFService: {0}", ex.InnerException);
+                throw new Exception(string.Format("Fehler in BWFService: {0}", ex.Message));
             }
         }
 
